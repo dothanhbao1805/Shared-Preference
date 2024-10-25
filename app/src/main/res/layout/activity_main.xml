@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <RadioGroup
+        android:id="@+id/radioGroupThemes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light Theme" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silver Theme" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue Theme" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSaveTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Theme"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Đỗ Thành Bảo 22115053122202" />
+</LinearLayout>
